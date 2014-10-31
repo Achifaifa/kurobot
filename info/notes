@@ -1,0 +1,93 @@
+Main menu window menu elements
+
+Game
+  Save 
+  Load
+  Options
+  Exit
+
+Team
+  Manage
+  Members
+  Train
+  Info
+
+Robot
+  Status
+  Components
+  Upgrades
+  Repair
+
+Finances
+  Bank
+  Sponsors
+  Expenses
+
+Background simulations:
+  Travel events, accidents, etc
+  Hiring people with hidden stats (skills, illnesess, etc)
+  Relations in-team (Relationships, friendships, rivalries/feuds, etc)
+  Random fuckups and murphy stuff
+  Team member learning and specialization
+  delays in member work according to skill in field
+
+Team management elements
+  Train in area
+  Look for talent
+  manage schedules and project timelines
+  Individual reports
+
+Team member skills (Assign using gauss curve, not random distributions)
+  Mechanical design
+  Electronics
+  Welding
+  Programming
+  telecommunications
+  woodworking
+  social skills
+  creativity
+  General computer knowledge
+  First aid
+  Mechanical repairs
+  Hydraulics/Pneumatics
+  Chemistry
+  Economics
+  Organisation/Management
+  Materials engineering
+  Electrical engineering
+  Mathematics
+  Physics
+  Languages
+  Psichology
+  Biology
+  Geography
+  History
+  Strategy
+  Medicine
+  Security
+  Architecture
+  Knitting
+  Writing
+  Law
+  Bureaucracy
+  Survival
+
+Team membeer attributes
+  Skills
+  Motivation/Morale
+  Energy
+  Will/Determination
+  race/age/sex/orientation
+  feats/defects
+  Physical/mental 
+
+Feats/Defects
+  Absorbed/Hyperactive
+  Disciplined/Lazy
+  Mental condition
+  Physycal defects
+  Tolerant/racist/etc
+  Good/bad memory
+  Creative/Unimaginative
+  Outgoing/introvert
+  Patient/short tempered

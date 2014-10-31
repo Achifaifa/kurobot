@@ -3,10 +3,16 @@
 import game
 import Tkinter
 
+#Global status variables
+elements=[] #All elements in menu screen
+launched=0  #Main game window status
+
 def tkexit():
   """
   Closes all the screens and exits the program
   """
+
+  print "Packing"
   exit()
 
 def menutitle():
@@ -14,7 +20,7 @@ def menutitle():
   Prints the menu title
   """
 
-  title=Tkinter.Label(text="\nKUROBOT\nv0.0.0\n\n\n\n")
+  title=Tkinter.Label(text="\nKUROBOT\nv0.0.0\n")
   elements.append(title)
 
 def mmenu():
@@ -24,8 +30,12 @@ def mmenu():
 
   clsr()
   menutitle()
-  opt1button=Tkinter.Button(text="New Game",width=10,command=game.loop)
-  elements.append(opt1button)
+  if not launched:
+    opt1button=Tkinter.Button(text="New Game",width=10,command=start)
+    elements.append(opt1button)
+  elif launched:
+    opt1button=Tkinter.Button(text="New Game",width=10,bg="#111111")
+    elements.append(opt1button)
   opt2button=Tkinter.Button(text="Continue",width=10,bg="#111111")
   elements.append(opt2button)
   opt3button=Tkinter.Button(text="Options",width=10,command=optionm)
@@ -33,6 +43,16 @@ def mmenu():
   opt4button=Tkinter.Button(text="Exit",width=10,command=tkexit)
   elements.append(opt4button)
   packall()
+
+def start():
+  """
+  Calls the game loop function and sets the launched variable to 1
+  """
+
+  global launched
+  launched=1
+  mmenu()
+  game.loop()
 
 def optionm():
   """
@@ -79,7 +99,6 @@ def clsr():
   elements=[]
 
 if __name__=="__main__":
-  elements=[] 
   root=Tkinter.Tk()
   root.wm_title("Kurobot launcher [0.0.0]")
   mmenu()

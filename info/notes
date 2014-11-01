@@ -1,28 +1,3 @@
-Main menu window menu elements
-
-Game
-  Save 
-  Load
-  Options
-  Exit
-
-Team
-  Manage
-  Members
-  Train
-  Info
-
-Robot
-  Status
-  Components
-  Upgrades
-  Repair
-
-Finances
-  Bank
-  Sponsors
-  Expenses
-
 Background simulations:
   Travel events, accidents, etc
   Hiring people with hidden stats (skills, illnesess, etc)

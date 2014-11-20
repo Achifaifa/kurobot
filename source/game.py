@@ -67,5 +67,5 @@ if __name__=="__main__":
 
   print "Game window and main procedures module"
   print "Testing... ",
-  print "[disabled]"
+  print "[testing disabled]"
   exit()

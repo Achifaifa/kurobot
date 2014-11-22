@@ -1,20 +1,23 @@
 traits={
 
   "physical":{
+
     "overall":          #00: Quatto,          99: Apollo
   }
   "mental":{
-    "Concentration":  #00: Hyperactive,     99: Utterly absorbed
-    "Discipline":     #00: Lazy bastard,    99: Ninja discipline
-    "Memory":         #00: Memento guy,     99: living git repo
-    "Creativity":     #00: Bureaucrat,      99: god on LSD
-    "Mental":         #00: Cthulhu victim,  99: 
 
-  }
+    "concentration":  #00: Hyperactive,     99: Utterly absorbed
+    "creativity":     #00: Bureaucrat,      99: god on LSD
+    "discipline":     #00: Lazy bastard,    99: Ninja discipline
+    "memory":         #00: Memento guy,     99: living git repo
+    "mental":         #00: Cthulhu victim,  99:
+    "will":
+  } 
   "social":{
+
     "overall":          #00: Forest hermit,   99: Master social engineer
-    "Patience":         #00: 6 year old,      99: Buddha
-    "Tolerance":        #00: KKK leader,      99: $4 chinese lock
+    "patience":         #00: 6 year old,      99: Buddha
+    "tolerance":        #00: KKK leader,      99: $4 chinese lock
   }
 
 }

@@ -2,20 +2,20 @@ attributes={
   
   "general":{
 
-    "race":
-    "age":
-    "sex":
+    "race":""
+    "age":0
+    "sex":0
 
   }
 
   "psychological"={
 
-    "orientation":
-    "fears":
-    "traumas":
-    "loved"
+    "orientation":0
+    "fears":[]
+    "traumas":[]
+    "loved":0
   }
 
-  "feats":{}
-  "defects":{}
+  "feats":[]
+  "defects":[]
 }
